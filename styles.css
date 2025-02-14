@@ -71,22 +71,6 @@ h1 {
     }
 }
 
-/* Estilo para el botón en forma de corazón */
-.heart-button {
-    display: inline-block;
-    background-color: #e499e4; /* Color de fondo */
-    color: white; /* Color del texto */
-    padding: 20px 30px; /* Espaciado dentro del botón */
-    font-size: 24px; /* Tamaño del texto */
-    text-align: center; /* Centrar texto */
-    border-radius: 50px; /* Bordes redondeados */
-    text-decoration: none; /* Eliminar subrayado del enlace */
-    position: relative;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-top: 30px; /* Espaciado superior para alejar el botón del encabezado */
-}
-
 /* Efecto hover para el botón */
 .heart-button:hover {
     background-color: #73d9bc; /* Cambia el color al pasar el ratón */
@@ -156,13 +140,6 @@ h1 {
     transform: scale(1.1);
 }
 
-/* Crear la forma de corazón */
-audio {
-    width: 100%;
-    height: 100%;
-    transform: scale(1.2);
-    border-radius: 50%;
-}
 
 /* Personalización de los controles del reproductor */
 audio::-webkit-media-controls-panel {
