@@ -5,11 +5,10 @@ body {
     height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
     background-color: black; /* Fondo negro */
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: flex-start; /* Alineación vertical al inicio (arriba) */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     font-family: Arial, sans-serif;
     flex-direction: column; /* Asegura que los elementos estén en columna */
-    padding-top: 100px; /* Agrega un espacio superior */
 }
 
 /* Estilo del contenedor */
@@ -88,7 +87,6 @@ h1 {
     margin-top: 30px; /* Espaciado superior para alejar el botón del encabezado */
 }
 
-
 /* Efecto hover para el botón */
 .heart-button:hover {
     background-color: #73d9bc; /* Cambia el color al pasar el ratón */
@@ -97,10 +95,8 @@ h1 {
 
 /* Estilo para el carrusel */
 .carousel-container {
-    position: absolute; /* Hace que el carrusel se posicione de forma absoluta */
+    position: relative; /* Cambio para ajustar al centro */
     top: 0; /* Coloca el carrusel en la parte superior */
-    left: 50%; /* Centra el carrusel horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición para centrarlo perfectamente */
     width: 100%;
     max-width: 800px; /* Tamaño máximo del carrusel */
     overflow: hidden; /* Oculta las imágenes fuera del contenedor */
@@ -141,7 +137,6 @@ h1 {
         transform: translateX(-500%); /* Vuelve a la primera imagen */
     }
 }
-
 
 /* Contenedor para el reproductor de audio */
 .reproductor {
