@@ -86,12 +86,13 @@ h1 {
     transition: all 0.3s ease;
     margin-top: 30px; /* Espaciado superior para alejar el botón del encabezado */
 }
+
+
 /* Efecto hover para el botón */
 .heart-button:hover {
     background-color: #73d9bc; /* Cambia el color al pasar el ratón */
     transform: scale(1.1); /* Aumenta el tamaño del botón */
 }
-
 /* Estilo para el carrusel */
 .carousel-container {
     position: relative; /* Cambio para ajustar al centro */
